@@ -4,16 +4,15 @@ title:  "development philosophy"
 categories: idea
 ---
 
-these thoughts are about not forcing productivity at all but designing 
+these thoughts are about not forcing productivity at all but to design 
 your workspace to guide your work towards a meaningful, fun to develop project.
 this probably only works for stuff you actually want to do. 
 
 ## preface
-Sometimes I have a day of just thinking through concepts. And
-you need to have these days to have an idea of what logically
-comes next in the development and how you want to implement it.
-If working on projects is fun, it feels good to pour energy into
-a project, and more work is done at the end of the day.
+sometimes i have a day of just thinking through concepts. you need to have these 
+days to have an idea of what logically comes next in the development and how you 
+want to implement it. if working on projects is fun, it feels good to pour energy 
+into a project, and more work is done at the end of the day.
 
 ## what is flow?
 a flow state is a state of highest concentration and total immersion in an 
@@ -28,7 +27,6 @@ and immersion in the activity.
 > But flow isn’t just something that happens to us, it’s something we can engineer. 
 > Something we can get better and better at, no matter what we’re doing, who we’re 
 > with or what life throws our way.
-
 
 source: [Flow Summary – Mihaly Csikszentmihalyi](https://theartofliving.com/flow-mihaly-csikszentmihalyi/)
 
