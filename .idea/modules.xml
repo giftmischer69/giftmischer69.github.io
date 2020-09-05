@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../archive/p14/.idea/p14.iml" filepath="$PROJECT_DIR$/../archive/p14/.idea/p14.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pelgo14.github.io.iml" filepath="$PROJECT_DIR$/.idea/pelgo14.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../verse16/.idea/verse16.iml" filepath="$PROJECT_DIR$/../verse16/.idea/verse16.iml" />
     </modules>
   </component>
 </project>
