@@ -23,11 +23,11 @@ our first thoughts revolved around creating a kind of public figure with an onli
 work and over the next couple of months, i developed multiple prototypes for this artificial artist, which culminated 
 in the creation of many prototypes, [**verse16**](https://github.com/pelgo14/verse16) and [**rapwiz42**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz). 
 
-we tried "static lyric generators" like [Song Lyrics Generator](https://www.song-lyrics-generator.org.uk/rap/) and they 
+we tried "static lyric generators" like [**Song Lyrics Generator**](https://www.song-lyrics-generator.org.uk/rap/) and they 
 seem nice when you generate the first text, but the illusion fades after you generate further lyrics and realize,
 that the text is almost the same every time, just with changing keywords. this approach is very limited and requires
-keywords from the user to bring some dire needed variation to the lyrics. the next day i came across [this towardsdatascience article](https://towardsdatascience.com/arctic-monkeys-lyrics-generator-with-data-augmentation-b9b1f7989db0).
-this lead me on another path, into the world of natural language processing, especially natural language generation.
+keywords from the user to bring some dire needed variation to the lyrics. the next day i came across [**this towardsdatascience article**](https://towardsdatascience.com/arctic-monkeys-lyrics-generator-with-data-augmentation-b9b1f7989db0).
+this lead me on a new path, into the world of natural language processing, especially natural language generation.
  
 ## some inspirational heading about text generation, maybe a quote
 i initially created prototypes for [**lyric generation**](https://github.com/topics/text-generation), 
@@ -40,33 +40,34 @@ and a small command line [**digital audio workstation**](https://github.com/topi
 
 ## rapwiz42
 
+<p>🔥</p>
+
 write like [this towardsdatascience article](https://towardsdatascience.com/arctic-monkeys-lyrics-generator-with-data-augmentation-b9b1f7989db0).
-
-
 
 ## verse16
 *from [github.com/pelgo14/verse16](https://github.com/pelgo14/verse16)*
 
 install:
-{% highlight shell %}
-pip install verse16
-{% endhighlight %}
 
+```shell 
+pip install verse16
+```
 
 usage:
-{% highlight shell %}
+
+```shell 
 verse16 --help
 verse16 --lines 4
 verse16 --lines 16 --log_level DEBUG
-{% endhighlight %}
+```
 
 import as a class:
 
-{% highlight python %}
+```python
 from verse16 import Generator
 gen = Generator(log_level="INFO")
 lines = gen.generate(16)
-{% endhighlight %}
+```
 
 ## future plans
 
