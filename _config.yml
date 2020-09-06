@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               'p14'
+title:               'thoughts from pelgo14'
 url:                 https://pelgo14.github.io
-tagline:             'thoughts from pelgo14'
+# tagline:             'thoughts from pelgo14'
 baseurl:             ""
 
 # Assets
@@ -22,3 +22,6 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/pelgo14/pelgo14.github.io
+
+plugins:
+  - jemoji

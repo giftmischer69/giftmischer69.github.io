@@ -4,7 +4,7 @@ title: about
 description: about pelgo14
 ---
 
-pelgo's devlog
+[pelgo's](https://github.com/pelgo14) devlog
 
 > `never forget p14`
 
@@ -12,10 +12,12 @@ contact me: [pelgo14@protonmail.com](mailto:pelgo14@protonmail.com)
 
 ## theme
 
+inspired by [n-o-d-e](https://n-o-d-e.net/)
+
 the jekyll theme used is [bradleytaunt/lightspeed](https://github.com/bradleytaunt/lightspeed)
 
-contact the author of this theme:
+contact the author of this jekyll theme:
 
-https://twitter.com/bradtaunt
+[@bradtaunt](https://twitter.com/bradtaunt)
 
-https://bradleytaunt.com
+[bradleytaunt.com](https://bradleytaunt.com)

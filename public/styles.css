@@ -1,0 +1,44 @@
+html, body {
+  letter-spacing: 0.1px;
+  font-family: monaco, Consolas, Lucida Console, monospace; /*'Share Tech Mono'*/
+  font-weight: 400;
+  font-size: 17px;
+  color: #e0e0e0;
+  background: #212121;
+}
+
+.post {
+  line-height: 28px
+}
+
+a,
+a:visited {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+main {
+  margin: auto;
+  max-width: 58rem;
+  padding: 0.8rem;
+}
+pre {
+  /*background: white;
+  overflow: scroll;
+  padding: 1rem;*/
+}
+td {
+  border: 1px solid #2d2d2d;
+  padding: 10px;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+@media (max-width: 38rem) {
+  .homepage-list li a {
+    width: 100%;
+  }
+}
