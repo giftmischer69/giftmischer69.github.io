@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "on verse16, rapwiz42 and an artificial rapper"
-categories: [idea, docs]
+categories: [💡, 📚]
 permalink: artificial-rapper
 ---
 

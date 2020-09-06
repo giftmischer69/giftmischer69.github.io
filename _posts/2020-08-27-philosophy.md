@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "development philosophy"
-categories: idea
+categories: 💡
 ---
 
 *development in progress...*
