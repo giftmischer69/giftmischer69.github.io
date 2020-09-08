@@ -29,21 +29,31 @@ that the text is almost the same every time, just with changing keywords. this a
 keywords from the user to bring some dire needed variation to the lyrics. the next day i came across [**this towardsdatascience article**](https://towardsdatascience.com/arctic-monkeys-lyrics-generator-with-data-augmentation-b9b1f7989db0).
 this lead me on a new path, into the world of natural language processing, especially natural language generation.
  
-## some inspirational heading about text generation, maybe a quote
+## "These silver-white unicorns were previously unknown to science." 
+### - [GPT-2](https://openai.com/blog/better-language-models/)
 i initially created prototypes for [**lyric generation**](https://github.com/topics/text-generation), 
 **text to rap flow synthesis** (no previous research done), [**voice synthesis**](https://github.com/topics/voice-synthesis), 
 and a small command line [**digital audio workstation**](https://github.com/topics/daw). after creating prototypes for
- a few months, i realized i bit off a bit more than i can chew. a long term goal of this whole collection of projects,
- prototypes and thoughts could be a **digital audio workstation supported by artificial intelligence**. maybe i will be
- working on this goal in my free time, maybe not, i go with the flow. for now however, only the lyric-generating part 
- of the project is robust enough for other developers to use. 
+a few months, i realized i bit off a bit more than i can chew, for now. a long term goal of this whole collection of 
+projects,cprototypes and thoughts could be a [**digital audio workstation supported by artificial intelligence**](https://pelgo14.github.io/ai-daw). 
+maybe i will be working on this goal in my free time, maybe not, i go with the flow. for now however, (only) the 
+lyric-generating part of the project is robust enough for other developers to use. 
 
 ## rapwiz42
+todo: insert screenshots / code blocks
 
-<p>🔥</p>
+rapwiz42 is a neural network (gpt-2) and lyric corpus based lyric generation system. 
 
-write like [this towardsdatascience article](https://towardsdatascience.com/arctic-monkeys-lyrics-generator-with-data-augmentation-b9b1f7989db0).
+first, given a list of names of artists, their lyrics are scraped from genius.com. 
 
+then a text corpus is created from the scraped lyrics, and the corpus is cleaned of any bad characters. 
+
+then a gpt-2 model gets fine-tuned on the text corpus. 
+
+then, with this gpt-2 model fine-tuned to rap flavour, rhyming lines in an "aabbaabb..." scheme are generated.
+
+TODO: screenshots
+ 
 ## verse16
 *from [github.com/pelgo14/verse16](https://github.com/pelgo14/verse16)*
 
@@ -76,6 +86,7 @@ list all planned functions with demonstration of where in development this is...
 ## reference
 there are amazing notebooks and articles on the subject of natural language and lyric generation.
 this project incorporates and makes minimal changes to:
-* [github.com/minimaxir/gpt-2-simple](https://github.com/minimaxir/gpt-2-simple)
 * [towardsdatascience.com/arctic-monkeys-lyrics-generator](https://towardsdatascience.com/arctic-monkeys-lyrics-generator-with-data-augmentation-b9b1f7989db0)
+* [github.com/markriedl/weirdai](https://github.com/markriedl/weirdai)
+* [github.com/minimaxir/gpt-2-simple](https://github.com/minimaxir/gpt-2-simple)
  

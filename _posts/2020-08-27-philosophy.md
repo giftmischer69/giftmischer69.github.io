@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "development philosophy"
+title:  "draft: development philosophy"
 categories: 💡
 ---
+
+todo add draft category for unfinished articles philosophy and p2p
+todo add article about categories, explaining emoji->meaning
 
 *development in progress...*
 
