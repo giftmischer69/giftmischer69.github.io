@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  "draft: development philosophy"
-categories: 💡
+title:  "development philosophy"
+categories: [💡]
 ---
-
-todo add draft category for unfinished articles philosophy and p2p
-todo add article about categories, explaining emoji->meaning
 
 *development in progress...*
 
@@ -14,9 +11,7 @@ your workspace to guide your work towards a meaningful, fun to develop project.
 this probably only works for stuff you actually want to do. 
 
 ## preface
-sometimes i have a day of just thinking through concepts. you need to have these 
-days to have an idea of what logically comes next in the development and how you 
-want to implement it. if working on projects is fun, it feels good to pour energy 
+if working on projects is fun, it feels good to pour energy 
 into a project, and more work is done at the end of the day.
 
 ## what is flow?
@@ -37,8 +32,7 @@ source: [Flow Summary – Mihaly Csikszentmihalyi](https://theartofliving.com/fl
 
 ## reaching flow state
 
-it is harder to say no to eating a chocolate bar, when you have already
-bought it. things that you see and things that are around you influence your 
+things that you see and things that are around you influence your 
 thoughts and motivations. i have designed my workspace in a way, that i mostly
 receive triggers for things i actually want to do, like working on side 
 projects, making music or looking at interesting media. this consumption of 
@@ -53,9 +47,7 @@ source: [Wikipedia: Flow (psychology)](https://en.wikipedia.org/wiki/Flow_(psych
 throughout my teenage years, i was fascinated by videos from [vsauce](https://www.youtube.com/user/Vsauce).
 after watching his videos, each time I felt like I had learned something 
 interesting. many people reach the flow state multiple times a day for varying
-amounts of time. i sometimes reach it when consuming edutainment (education + 
-entertainment), like watching a math related video from [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) or 
-reading an interesting article from [medium.com](https://medium.com). i **design**ed my **workspace**
+amounts of time. i **design**ed my **workspace**
 in a way that **makes it easier to start PyCharm than League of Legends**. i don't
 feel good after i spent 20h of my weekend on league, but when i spend this 
 energy on a side project and make substantial progress, it feels good.
@@ -69,7 +61,9 @@ at home it could be anything you consider worth doing. personally i have decided
 on a few prioritized activities and designed my workspace so i mostly receive
 triggers for these activities, like the icons in the taskbar and on the desktop,
 the bookmarks in my browser and also removed all video-games except one (its melee
-for [phillip ai](https://github.com/vladfi1/phillip) and other reasons). for me it is important to have some
+for [phillip ai](https://github.com/vladfi1/phillip) and other reasons). 
+ 
+it is important to have some
 non-productive hours throughout the day too, to stay happy and contempt. 
 still, i designed my life in a way that i do more stuff that i intrinsically want
 to do, so i am more satisfied. my father used to say "the amount of bad habits
@@ -126,4 +120,4 @@ when to take breaks?
 
 source: [karan: how to take breaks while coding](https://dev.to/karan/how-to-take-breaks-while-coding-2ccp)
 
-the next iteration of this draft will probably be more structured.
+*the next iteration of this draft will probably be more structured.*
