@@ -2,6 +2,7 @@
 layout: post
 title:  "development philosophy"
 categories: [💡, ✨]
+permalink: development-philosophy
 ---
 
 these thoughts are about not forcing productivity at all but to design 
