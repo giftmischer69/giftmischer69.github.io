@@ -11,6 +11,8 @@ permalink: artificial-rapper
 
 and outlines their inception and future.
 
+TODO: add example, embed with soundcloud
+
 ## how it all came to be...
 one evening in February 2020 my friends and i were buying drinks for the night, discussing possible use cases for ai. 
 one of us came up with the idea to develop an artificial, ai-powered-rapper. we expanded on the concept and when we 

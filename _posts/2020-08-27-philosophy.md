@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "development philosophy"
-categories: [💡]
+categories: [💡, ✨]
 ---
-
-*development in progress...*
 
 these thoughts are about not forcing productivity at all but to design 
 your workspace to guide your work towards a meaningful, fun to develop project.
