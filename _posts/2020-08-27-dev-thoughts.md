@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "development philosophy"
+title:  "thoughts on the development process"
 categories: [💡, ✨]
-permalink: development-philosophy
+permalink: development-thoughts
 ---
 
 these thoughts are about not forcing productivity at all but to design 
@@ -27,7 +27,7 @@ and immersion in the activity.
 > Something we can get better and better at, no matter what we’re doing, who we’re 
 > with or what life throws our way.
 
-source: [Flow Summary – Mihaly Csikszentmihalyi](https://theartofliving.com/flow-mihaly-csikszentmihalyi/)
+source: [**Flow Summary – Mihaly Csikszentmihalyi**](https://theartofliving.com/flow-mihaly-csikszentmihalyi/)
 
 ## reaching flow state
 
@@ -41,9 +41,9 @@ you only watch entertainment with no educational value, you may find it to be
 less effort, yet you gain nothing from the experience.   
 > Passive activities like taking a bath or even watching TV usually do not elicit flow experiences as individuals have to actively do something to enter a flow state.
 
-source: [Wikipedia: Flow (psychology)](https://en.wikipedia.org/wiki/Flow_(psychology))
+source: [**Wikipedia: Flow (psychology)**](https://en.wikipedia.org/wiki/Flow_(psychology))
 
-throughout my teenage years, i was fascinated by videos from [vsauce](https://www.youtube.com/user/Vsauce).
+throughout my teenage years, i was fascinated by videos from [**vsauce**](https://www.youtube.com/user/Vsauce).
 after watching his videos, each time I felt like I had learned something 
 interesting. many people reach the flow state multiple times a day for varying
 amounts of time. i **design**ed my **workspace**
@@ -60,7 +60,7 @@ at home it could be anything you consider worth doing. personally i have decided
 on a few prioritized activities and designed my workspace so i mostly receive
 triggers for these activities, like the icons in the taskbar and on the desktop,
 the bookmarks in my browser and also removed all video-games except one (its melee
-for [phillip ai](https://github.com/vladfi1/phillip) and other reasons). 
+for [**phillip ai**](https://github.com/vladfi1/phillip) and other reasons). 
  
 it is important to have some
 non-productive hours throughout the day too, to stay happy and contempt. 
@@ -83,12 +83,12 @@ prototyping and follows the mantra:
 
 > "Don't build technology unless you feel the pain of not having it."  
 
-source: [Nathan Marz: Suffering-oriented programming](http://nathanmarz.com/blog/suffering-oriented-programming.html)
+source: [**Nathan Marz: Suffering-oriented programming**](http://nathanmarz.com/blog/suffering-oriented-programming.html)
 
 ## habits
 it is better to exercise once a day for one hour a day than once a week for three.
 this can be applied to programming as well, to an extent.  
-see: [Joe Rogan and Firas Zahabi on focusing on consistency over intensity in training](https://www.youtube.com/watch?v=_fbCcWyYthQ)
+see: [**Joe Rogan and Firas Zahabi on focusing on consistency over intensity in training**](https://www.youtube.com/watch?v=_fbCcWyYthQ)
 
 ## dangers of flow
 when to take breaks?
@@ -117,6 +117,6 @@ when to take breaks?
 > you will realize how different it feels - just looking at something that
 > is afar for an extended period of time."
 
-source: [karan: how to take breaks while coding](https://dev.to/karan/how-to-take-breaks-while-coding-2ccp)
+source: [**karan: how to take breaks while coding**](https://dev.to/karan/how-to-take-breaks-while-coding-2ccp)
 
 *the next iteration of this draft will probably be more structured.*

@@ -5,13 +5,17 @@ categories: [✨, 💡, 📚]
 permalink: artificial-rapper
 ---
 
+**todo:**
+- **modify scraper, so that each artist is scraped with a separate thread!**
+- **add outputs after code**
+- (maybe) add example, embed with soundcloud
+
 *tl;dr:* this post documents the 
+
 * [**rapwiz42 colaboratory notebook**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz) and the 
 * [**verse16 python package**](https://github.com/pelgo14/verse16) 
 
 and outlines their inception and future.
-
-TODO: add example, embed with soundcloud
 
 ## how it all came to be...
 one evening in February 2020 my friends and i were buying drinks for the night, discussing possible use cases for ai. 
@@ -90,6 +94,8 @@ def clean_lyricdb(self):
 then a gpt-2 model gets fine-tuned on the text corpus. 
 
 ```python
+import gpt-2-simple as gpt2
+
 steps = 1000
 
 file_name = "lyricdb.txt"
