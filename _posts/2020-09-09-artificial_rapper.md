@@ -6,7 +6,6 @@ permalink: artificial-rapper
 ---
 
 **todo:**
-- **modify scraper, so that each artist is scraped with a separate thread!**
 - **add outputs after code**
 - (maybe) add example, embed with soundcloud
 
@@ -91,6 +90,29 @@ def clean_lyricdb(self):
             print(line, end="")
 ```
 
+output:
+
+```text
+scraping...
+Searching for songs by aesop-rock...
+
+Searching for songs by mf-doom...
+
+Changing artist name to 'Aesop Rock'
+Changing artist name to 'MF DOOM'
+Song 1: "None Shall Pass"
+Song 2: "Daylight"
+Song 1: "Doomsday"
+Song 2: "Beef Rapp"
+...
+Song 225: "Marble Cake"
+Song 204: "#chessboxin"
+Done. Found 226 songs.
+Wrote `Lyrics_AesopRock.json`
+Done. Found 204 songs.
+Wrote `Lyrics_MFDOOM.json`
+```
+
 then a gpt-2 model gets fine-tuned on the text corpus. 
 
 ```python
@@ -115,14 +137,16 @@ gpt2.finetune(sess,
               )
 ```
 
+output:
+
+```
+
+
+```
+
 then, with this gpt-2 model fine-tuned to rap flavour, rhyming lines in an "aabbaabb..." scheme are generated.
 
 ```python
-line_count = 16 
-
-gen = Generator(log_level="INFO")
-lines = gen.generate(line_count, sess)
-
 # ----------------------------------------
 # Generator class
 # ----------------------------------------
@@ -210,6 +234,25 @@ class Generator:
     def rhymes(self, last_word, this_last_word):
         return this_last_word in pronouncing.rhymes(last_word)
 
+
+# ----------------------------------------
+# main
+# ----------------------------------------
+
+line_count = 16 
+
+gen = Generator(log_level="INFO")
+lines = gen.generate(line_count, sess)
+
+```
+
+output:
+
+```text
+INFO:root:generating lines...
+ 26% (4 of 15) |######                   | Elapsed Time: 0:05:32 ETA:   0:03:13
+
+...lines...
 ```
 
 *note, that this is a cut down version of the [actual code](). i did this for better readability and easier
