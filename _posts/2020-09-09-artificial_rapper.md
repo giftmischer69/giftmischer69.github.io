@@ -7,7 +7,7 @@ permalink: artificial-rapper
 
 *tl;dr:* this post documents the 
 
-* [**rapwiz42 colaboratory notebook**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz) and the 
+* [**rapwiz42 colaboratory notebook**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F?usp=sharing) and the 
 * [**verse16 python package**](https://github.com/pelgo14/verse16) 
 
 and outlines their inception and future.
@@ -22,7 +22,7 @@ our first thoughts revolved around creating a kind of public figure with an onli
 3d model performing rap songs, which it has written itself. we thought about an artificial artist who only publishes 
 **computer generated, but always original content**. with an artificial voice, face and "*life*". the next day i got to 
 work and over the next couple of months, i developed multiple prototypes for this artificial artist, which culminated 
-in the creation of many prototypes, [**verse16**](https://github.com/pelgo14/verse16) and [**rapwiz42**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F). 
+in the creation of many prototypes, [**verse16**](https://github.com/pelgo14/verse16) and [**rapwiz42**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F?usp=sharing). 
 
 we tried "static lyric generators" like [**Song Lyrics Generator**](https://www.song-lyrics-generator.org.uk/rap/) and they 
 seem nice when you generate the first text, but the illusion fades after you generate further lyrics and realize,
@@ -41,11 +41,11 @@ maybe i will be working on this goal in my free time, maybe not, i go with the f
 lyric-generating part of the project is robust enough for other developers to use. 
 
 ## rapwiz42
-[**rapwiz42**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz) 
+[**rapwiz42**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F?usp=sharing) 
 is a neural network (gpt-2) and lyric corpus based lyric generation system. 
 
 <!-- ![rapwiz42 colab notebook](/public/img/rapwiz_title.png) -->
-[**rapwiz42 colab notebook**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F) 
+[**rapwiz42 colab notebook**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F?usp=sharing) 
 
 first, given a list of names of artists, their lyrics are scraped from genius.com. 
 
@@ -288,7 +288,7 @@ Daredevil has been a part of the Marvel comic book pant
 I hate to abuse your patience, but I just can't
 ```
 
-*note, that this is a cut down version of the [**actual code**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz). 
+*note, that this is a cut down version of the [**actual code**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F?usp=sharing). 
 i did this for better readability and easier understanding.*
 
 ## verse16
