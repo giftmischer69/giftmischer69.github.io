@@ -5,10 +5,6 @@ categories: [✨, 💡, 📚]
 permalink: artificial-rapper
 ---
 
-**todo:**
-- **add outputs after code**
-- (maybe) add example, embed with soundcloud
-
 *tl;dr:* this post documents the 
 
 * [**rapwiz42 colaboratory notebook**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz) and the 
