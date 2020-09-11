@@ -26,7 +26,7 @@ our first thoughts revolved around creating a kind of public figure with an onli
 3d model performing rap songs, which it has written itself. we thought about an artificial artist who only publishes 
 **computer generated, but always original content**. with an artificial voice, face and "*life*". the next day i got to 
 work and over the next couple of months, i developed multiple prototypes for this artificial artist, which culminated 
-in the creation of many prototypes, [**verse16**](https://github.com/pelgo14/verse16) and [**rapwiz42**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz). 
+in the creation of many prototypes, [**verse16**](https://github.com/pelgo14/verse16) and [**rapwiz42**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F). 
 
 we tried "static lyric generators" like [**Song Lyrics Generator**](https://www.song-lyrics-generator.org.uk/rap/) and they 
 seem nice when you generate the first text, but the illusion fades after you generate further lyrics and realize,
@@ -48,8 +48,8 @@ lyric-generating part of the project is robust enough for other developers to us
 [**rapwiz42**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz) 
 is a neural network (gpt-2) and lyric corpus based lyric generation system. 
 
-![rapwiz42 colab notebook](/public/img/rapwiz_title.png)
-[**rapwiz42 colab notebook**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz) 
+<!-- ![rapwiz42 colab notebook](/public/img/rapwiz_title.png) -->
+[**rapwiz42 colab notebook**](https://colab.research.google.com/drive/1C4_CBrSJcUfRopQxaQqlrnU9Ve5Xk33F) 
 
 first, given a list of names of artists, their lyrics are scraped from genius.com. 
 
@@ -111,6 +111,7 @@ Done. Found 226 songs.
 Wrote `Lyrics_AesopRock.json`
 Done. Found 204 songs.
 Wrote `Lyrics_MFDOOM.json`
+Wrote `lyricdb.txt`
 ```
 
 then a gpt-2 model gets fine-tuned on the text corpus. 
@@ -139,8 +140,40 @@ gpt2.finetune(sess,
 
 output:
 
-```
+```text
+Fetching checkpoint: 1.05Mit [00:00, 248Mit/s]                                                      
 
+training...
+
+Fetching encoder.json: 1.05Mit [00:00, 108Mit/s]
+Fetching hparams.json: 1.05Mit [00:00, 175Mit/s]
+Fetching model.ckpt.data-00000-of-00001: 1.42Git [00:14, 98.4Mit/s]
+Fetching model.ckpt.index: 1.05Mit [00:00, 219Mit/s]                                                
+Fetching model.ckpt.meta: 1.05Mit [00:00, 66.0Mit/s]
+Fetching vocab.bpe: 1.05Mit [00:00, 147Mit/s]
+Loading checkpoint models/345M/model.ckpt
+INFO:tensorflow:Restoring parameters from models/345M/model.ckpt
+
+INFO:tensorflow:Restoring parameters from models/345M/model.ckpt
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+Loading dataset...
+
+100%|██████████| 1/1 [00:02<00:00,  2.61s/it]
+
+dataset has 422429 tokens
+Training...
+[25 | 64.72] loss=4.76 avg=4.76
+[50 | 119.89] loss=4.76 avg=4.76
+[75 | 175.34] loss=4.41 avg=4.64
+[100 | 230.99] loss=3.30 avg=4.30
+[125 | 286.61] loss=4.69 avg=4.38
+[150 | 342.33] loss=3.13 avg=4.17
+[175 | 397.96] loss=4.79 avg=4.26
+[200 | 453.61] loss=4.24 avg=4.26
+[225 | 509.29] loss=3.14 avg=4.13
+[250 | 564.97] loss=4.15 avg=4.13
+Saving checkpoint/run1/model-250
 
 ```
 
@@ -250,16 +283,20 @@ output:
 
 ```text
 INFO:root:generating lines...
- 26% (4 of 15) |######                   | Elapsed Time: 0:05:32 ETA:   0:03:13
+100% (3 of 3) |##########################| Elapsed Time: 0:02:55 Time:  0:02:55
+INFO:root:generating lines... done!
 
-...lines...
+I'm looking forward to popping by again and bringing back hot
+While I'm at it, I should mention I finally got
+Daredevil has been a part of the Marvel comic book pant
+I hate to abuse your patience, but I just can't
 ```
 
-*note, that this is a cut down version of the [actual code](). i did this for better readability and easier
- understanding.*
+*note, that this is a cut down version of the [**actual code**](https://colab.research.google.com/drive/1M27YXWJhepd4rhsB2KwRKGXZTwZRNIvz). 
+i did this for better readability and easier understanding.*
 
 ## verse16
-*from [github.com/pelgo14/verse16](https://github.com/pelgo14/verse16)*
+*from [**github.com/pelgo14/verse16**](https://github.com/pelgo14/verse16)*
 
 install:
 
