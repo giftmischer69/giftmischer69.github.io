@@ -9,6 +9,16 @@ html, body {
   text-align: justify;
 }
 
+.dark-mode {
+  filter: invert(100%)
+}
+
+.btn {
+  color: #e0e0e0;
+  border: none;
+  background: none;
+}
+
 .post {
   line-height: 28px
 }
