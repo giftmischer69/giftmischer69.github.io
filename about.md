@@ -8,7 +8,10 @@ description: about pelgo14
 
 > `never forget p14`
 
-contact me: [**pelgo14@protonmail.com**](mailto:pelgo14@protonmail.com)
+contact me: 
+- [**jbcgn@genos.se**](mailto:jbcgn@genos.se)
+- [**pelgo14@pm.me**](mailto:pelgo14@pm.me)
+
 
 ## theme
 
@@ -16,10 +19,5 @@ inspired by [**n-o-d-e**](https://n-o-d-e.net/)
 
 code highlighting with [**highlight.js**](https://highlightjs.org/)
 
-the jekyll theme used is [**bradleytaunt/lightspeed**](https://github.com/bradleytaunt/lightspeed)
+this blog is based on the jekyll theme [**bradleytaunt/lightspeed**](https://github.com/bradleytaunt/lightspeed)
 
-contact the author of this jekyll theme:
-
-[**@bradtaunt**](https://twitter.com/bradtaunt)
-
-[**bradleytaunt.com**](https://bradleytaunt.com)
