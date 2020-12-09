@@ -2,7 +2,7 @@
 layout: post
 title:  "how to host a blog like this one"
 categories: [✨, 💡, 📚]
-permalink: meta, pelgo-blog
+permalink: pelgo-blog-meta
 ---
 
-this post documents 
+in progress ...

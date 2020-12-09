@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               'thoughts from pelgo14'
-url:                 https://pelgo14.github.io
-# tagline:             'thoughts from pelgo14'
+title:               'blog.genos.se'
+url:                 https://blog.genos.se
+tagline:             'thoughts from pelgo14'
 baseurl:             ""
 
 # Assets
@@ -15,8 +15,8 @@ sass:
 # About/contact
 author:
   name:              pelgo14
-  url:               https://pelgo14.github.io
-  email:             pelgo14@protonmail.com
+  url:               https://blog.genos.se
+  email:             pelgo14@pm.me
 
 # Custom vars
 version:             1.0.0
