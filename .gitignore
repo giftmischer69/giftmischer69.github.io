@@ -1,6 +1,7 @@
 .idea/
 .jekyll-cache
 _site
+Gemfile.lock
 
 # Ignore docs files
 _gh_pages

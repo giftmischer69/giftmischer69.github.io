@@ -1,16 +1,13 @@
 ---
 layout: page
 title: about
-description: about pelgo14
+description: about giftmischer69
 ---
 
-[**pelgo's**](https://github.com/pelgo14) devlog
+[**giftmischer69's**](https://github.com/giftmischer69) devlog
 
-> `never forget p14`
-
-contact me: 
-- [**jbcgn@genos.se**](mailto:jbcgn@genos.se)
-- [**pelgo14@pm.me**](mailto:pelgo14@pm.me)
+contact me:
+- [**giftmischer69@pm.me**](mailto:giftmischer69@pm.me)
 
 
 ## theme
@@ -20,4 +17,3 @@ inspired by [**n-o-d-e**](https://n-o-d-e.net/)
 code highlighting with [**highlight.js**](https://highlightjs.org/)
 
 this blog is based on the jekyll theme [**bradleytaunt/lightspeed**](https://github.com/bradleytaunt/lightspeed)
-

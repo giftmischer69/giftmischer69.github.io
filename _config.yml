@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               'blog.genos.se'
 url:                 https://blog.genos.se
-tagline:             'thoughts from pelgo14'
+tagline:             'thoughts from giftmischer69'
 baseurl:             ""
 
 # Assets
@@ -14,14 +14,14 @@ sass:
 
 # About/contact
 author:
-  name:              pelgo14
+  name:              giftmischer69
   url:               https://blog.genos.se
-  email:             pelgo14@pm.me
+  email:             giftmischer69@pm.me
 
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/pelgo14/pelgo14.github.io
+  repo:              https://github.com/giftmischer69/giftmischer69.github.io
 
 plugins:
   - jemoji

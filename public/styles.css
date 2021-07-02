@@ -23,9 +23,13 @@ html, body {
   line-height: 28px
 }
 
-a,
+a {
+  color: #fafafa;
+}
+
 a:visited {
-  color: #f5f5f5;
+  color: #b39ddb;
+
   text-decoration: none;
 }
 a:hover {
